@@ -103,4 +103,7 @@ if st.button("Predict Disease Risk", type="primary"):
         st.error("🚨 **Predicted Risk: HIGH**")
         st.warning("The system predicts this profile has a high risk of developing a disease. Consultation is recommended.")
     else:
-        st.success("
+        st.success("""
+            ✅ **Predicted Risk: LOW**
+            The system predicts this profile has a low risk of developing a disease. Keep up the good work!
+        """)
